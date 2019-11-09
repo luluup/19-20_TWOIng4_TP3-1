@@ -1,0 +1,50 @@
+.Profils{
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top : 100px;
+    width: 50%;
+}
+
+.wrapper{
+    border-style : groove;
+    padding : 10px 5px 5px 10px;
+}
+
+.ProfilPic{
+    border-radius: 500px;
+    height: 20em;
+    widows: 20em;
+}
+
+.mesCol{
+    column-count: 2;
+    column-gap: 50px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-top: 20px
+}
+
+.Date{
+    padding-top: 20px;
+}
+
+.Publi{
+    border-style : groove;
+    padding : 10px 5px 5px 10px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.btnStyle{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 450px;
+}
+
+.btnTop{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 450px;
+}
