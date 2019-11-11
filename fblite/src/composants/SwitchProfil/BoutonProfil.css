@@ -1,0 +1,13 @@
+.btnp{
+    padding:10px 30px 10px 30px;
+	font:bold 13px Arial;
+    color: palevioletred;
+    border-radius:2px;
+    border: none;
+    box-shadow:1px 1px 3px #999;
+}
+
+.btnp:hover{
+    border-top: 3px solid plum;
+	background-color: plum;
+}

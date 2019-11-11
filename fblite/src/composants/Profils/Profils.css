@@ -1,7 +1,6 @@
 .Profils{
     margin-left: auto;
     margin-right: auto;
-    
     padding-top : 100px;
     width: 50%;
 }
@@ -15,6 +14,7 @@
     border-radius: 500px;
     height: 20em;
     widows: 20em;
+    width: 350px;;
 }
 
 .mesCol{
@@ -22,7 +22,8 @@
     column-gap: 50px;
     text-align: justify;
     padding-left: 30px;
-    padding-top: 20px
+    padding-top: 20px;
+    font:13px Arial;
 }
 
 .Date{
@@ -35,16 +36,37 @@
     margin-top: 60px;
     margin-bottom: 20px;
     text-align: left;
+    font:13px Arial;
 }
 
 .btnStyle{
     margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 450px;
+    padding:6px 0 6px 0;
+	font:bold 13px Arial;
+    color: palevioletred;
+    border-radius:2px;
+    border: none;
+}
+
+.btnStyle:hover{
+    border-top: 3px solid plum;
+	background-color: plum;
 }
 
 .btnTop{
     margin-top: 20px;
     margin-bottom: 10px;
     margin-right: 450px;
+    padding:6px 0 6px 0;
+	font:bold 13px Arial;
+    color: palevioletred;
+    border-radius:2px;
+    border: none;
+}
+
+.btnTop:hover{
+    border-top: 3px solid plum;
+	background-color: plum;
 }

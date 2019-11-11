@@ -14,11 +14,11 @@ export default class Profils extends React.Component{
                     <div class = "wrapper">
                         <img className = "ProfilPic" src={this.props.personne.img} alt="Photo de profil"></img>
                         <div className = "mesCol">
-                            <div class = "Prenom"><b>Prenom :</b> {this.props.personne.prenom} </div>
+                            <div class = "Prenom"><b>Prénom :</b> {this.props.personne.prenom} </div>
                             <div class = "Date"><b>Date de naissance :</b> {this.props.personne.date} </div>
                             <div class = "Nom"><b>Nom :</b> {this.props.personne.nom} </div>
                         </div>
-                        <button type="button" class="btnStyle">Changer de style</button>
+                        <button type="button" class="btnStyle" onClick = {() => this.props.changeStyle(this.props.personne.id)}>Changer de style</button>
                     </div>
                 </div>
 
