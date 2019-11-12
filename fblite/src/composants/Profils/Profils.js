@@ -24,7 +24,7 @@ export default class Profils extends React.Component{
 
                 <div className = "Publi">
                 <div class = "Post"><b>Dernière publication :</b> {this.props.personne.post} </div>
-                <button type="button" class="btnTop">👍 C'est super</button>
+                <button type="button" class="btnTop" onClick = {() => this.props.addSuper(this.props.personne.id)}> {this.props.personne.csuper} 👍 C'est super</button>
                 </div>
 
             </div>

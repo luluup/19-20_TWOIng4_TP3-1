@@ -9,5 +9,6 @@
 
 .btnp:hover{
     border-top: 3px solid plum;
-	background-color: plum;
+    background-color: plum;
+    cursor: pointer;
 }

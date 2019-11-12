@@ -14,6 +14,7 @@ export default class Page extends React.Component{
                     img : "https://starsinformer.com/wp-content/uploads/2019/04/Greta-Thunberg.jpg",
                     background : "#67ba4e",
                     post : "How dare you ?",
+                    csuper: 2654,
                     id : 0
                 },
                 {
@@ -23,6 +24,7 @@ export default class Page extends React.Component{
                     img : "https://upload.wikimedia.org/wikipedia/commons/e/e6/Mark_Zuckerberg_%287985185217%29.jpg",
                     background : "#67ba4e",
                     post : "Check your facebook",
+                    csuper: 9845,
                     id : 1
                 },
                 {
@@ -32,6 +34,7 @@ export default class Page extends React.Component{
                     img : "https://upload.wikimedia.org/wikipedia/commons/5/54/Steve_Jobs.jpg",
                     background : "#67ba4e",
                     post : "Si vous n'avez pas un Iphone, vous n'avez pas un Iphone",
+                    csuper: 8362,
                     id : 2
                 }
             ],
@@ -40,6 +43,7 @@ export default class Page extends React.Component{
 
         this.changeStyle = this.changeStyle.bind(this);
         this.handleClick = this.handleClick.bind(this);
+        this.addSuper = this.addSuper.bind(this);
     }
          
         changeStyle(id_pers){
@@ -56,6 +60,11 @@ export default class Page extends React.Component{
                     this.setState({personne_select: id_p});
                 }
 
+        addSuper(id_pers){
+            this.state.profils[id_pers].csuper = this.state.profils[id_pers].csuper +1;
+            this.setState({personne_select: id_pers});
+        }
+
     render(){
         return(
             <div>
@@ -70,6 +79,7 @@ export default class Page extends React.Component{
                 <Profils 
                     personne = {this.state.profils[this.state.personne_select]}
                     changeStyle = {this.changeStyle}
+                    addSuper = {this.addSuper}
                 />
             </div> 
         );

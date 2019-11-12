@@ -8,6 +8,7 @@
 .wrapper{
     border-style : groove;
     padding : 10px 5px 5px 10px;
+    font-weight: 100;
 }
 
 .ProfilPic{
@@ -43,7 +44,7 @@
     margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 450px;
-    padding:6px 0 6px 0;
+    padding:6px 3px 6px 3px;
 	font:bold 13px Arial;
     color: palevioletred;
     border-radius:2px;
@@ -52,14 +53,15 @@
 
 .btnStyle:hover{
     border-top: 3px solid plum;
-	background-color: plum;
+    background-color: plum;
+    cursor: pointer;
 }
 
 .btnTop{
     margin-top: 20px;
     margin-bottom: 10px;
     margin-right: 450px;
-    padding:6px 0 6px 0;
+    padding:6px 3px 6px 3px; 
 	font:bold 13px Arial;
     color: palevioletred;
     border-radius:2px;
@@ -68,5 +70,6 @@
 
 .btnTop:hover{
     border-top: 3px solid plum;
-	background-color: plum;
+    background-color: plum;
+    cursor: pointer;
 }
